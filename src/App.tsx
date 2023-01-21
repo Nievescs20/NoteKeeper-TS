@@ -1,10 +1,10 @@
-import "./App.css";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
-      <div className="text-secondary-300">Hello World</div>
-    </div>
+    <Routes>
+      <Route path="/" element={<h1>Test Path</h1>}></Route>
+    </Routes>
   );
 }
 

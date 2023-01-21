@@ -14,6 +14,9 @@ module.exports = {
         dmsans: ["DM Sans", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
       },
+      content: {
+        //place content here when needed. For use with before and after css
+      },
     },
     screens: {
       xs: "480px",
